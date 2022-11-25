@@ -6,10 +6,10 @@ import Auth from '../utils/auth';
 
 const SignupForm = () => {
   // set initial form state
-  const [userFormData, setUserFormData] = useState({ 
-    username: '', 
-    email: '', 
-    password: '' 
+  const [userFormData, setUserFormData] = useState({
+    username: '',
+    email: '',
+    password: ''
   });
 
   // set state for form validation
@@ -32,7 +32,7 @@ const SignupForm = () => {
 
     setUserFormData({
       ...userFormData,
-      [name]: value 
+      [name]: value
     });
   };
 
